@@ -33,17 +33,17 @@ const linkToNewTab = (url) => {
   <main id="banner">
     <nav>
       <div id="logo">
-        <img src="./assets/logo.png" alt="Logo" @click="backToTop" >
+        <img src="./assets/logo.png" alt="VisiVue Open Source Product Logo" @click="backToTop" >
       </div>
       <div id="navMedia">
         <a href="https://www.linkedin.com/company/visivue/" target="_blank" rel="noopener">
-          <img id="navLinkedIn" src="./assets/linkedin.png" alt="LinkedIn Icon">
+          <img id="navLinkedIn" src="./assets/linkedin.png" alt="VisiVue LinkedIn Icon">
         </a>
         <a href="https://github.com/oslabs-beta/VisiVue" target="_blank" rel="noopener">
-          <img id="navGitHub" src="./assets/github.png" alt="GitHub Icon">
+          <img id="navGitHub" src="./assets/github.png" alt="VisiVue GitHub Icon">
         </a>
         <a a href="https://twitter.com/VisiVueTeam" target="_blank" rel="noopener">
-          <img id="navTwitter" src="./assets/twitter.png" alt="Twitter Icon">
+          <img id="navTwitter" src="./assets/twitter.png" alt="VisiVue Twitter Icon">
         </a>
       </div>
     </nav>
@@ -95,67 +95,67 @@ const linkToNewTab = (url) => {
     <h2 class="sectionTitles">Meet Our Team</h2>
     <div class="cardContainer">
       <div class="profileCards" v-motion-pop-visible-once>
-        <img id="Abe" class="cardPhoto" src="./assets/abeprofile.jpeg" alt="Profile Pic">
+        <img id="Abe" class="cardPhoto" src="./assets/abeprofile.jpeg" alt="Profile Pic of Abe Henderson, main contributor of VisiVue">
         <p class="cardName">Abe Henderson</p>
         <p class="cardTitle">Software Engineer</p>
         <div class="cardIcons">
           <a href="https://www.linkedin.com/in/abe-henderson-367638139/" target="_blank" rel="noopener" class="cardIconLinks">
-            <img class="cardLinkedIn" src="./assets/linkedin.png" alt="LinkedIn Icon" />
+            <img class="cardLinkedIn" src="./assets/linkedin.png" alt="VisiVue main contributor LinkedIn Icon" />
           </a>
           <a href="https://github.com/a-hend" target="_blank" rel="noopener" class="cardIconLinks">
-            <img class="cardGitHub" src="./assets/github.png" alt="GitHub Icon" />
+            <img class="cardGitHub" src="./assets/github.png" alt="VisiVue main contributor GitHub Icon" />
           </a>
         </div>
       </div>
       <div class="profileCards" v-motion-pop-visible-once>
-        <img id="Chris" class="cardPhoto" src="./assets/chrisprofile.jpeg" alt="Profile Pic">
+        <img id="Chris" class="cardPhoto" src="./assets/chrisprofile.jpeg" alt="Profile Pic of Christopher Park, main contributor of VisiVue">
         <p class="cardName">Christopher Park</p>
         <p class="cardTitle">Software Engineer</p>
         <div class="cardIcons">
           <a href="https://www.linkedin.com/in/christopherjcpark/" target="_blank" rel="noopener" class="cardIconLinks">
-            <img class="cardLinkedIn" src="./assets/linkedin.png" alt="LinkedIn Icon" />
+            <img class="cardLinkedIn" src="./assets/linkedin.png" alt="VisiVue main contributor LinkedIn Icon" />
           </a>
           <a href="https://github.com/ChristopherPark3" target="_blank" rel="noopener" class="cardIconLinks">
-            <img class="cardGitHub" src="./assets/github.png" alt="GitHub Icon" />
+            <img class="cardGitHub" src="./assets/github.png" alt="VisiVue main contributor GitHub Icon" />
           </a>
         </div>
       </div>
       <div class="profileCards" v-motion-pop-visible-once>
-        <img id="Kasey" class="cardPhoto" src="./assets/kaseyprofile.jpeg" alt="Profile Pic">
+        <img id="Kasey" class="cardPhoto" src="./assets/kaseyprofile.jpeg" alt="Profile Pic of Kasey Nguyen, main contributor of VisiVue">
         <p class="cardName">Kasey Nguyen</p>
         <p class="cardTitle">Software Engineer</p>
         <div class="cardIcons">
           <a href="https://www.linkedin.com/in/kaseynguyen0527/" target="_blank" rel="noopener" class="cardIconLinks">
-            <img class="cardLinkedIn" src="./assets/linkedin.png" alt="LinkedIn Icon" />
+            <img class="cardLinkedIn" src="./assets/linkedin.png" alt="VisiVue main contributor LinkedIn Icon" />
           </a>
           <a href="https://github.com/kaseydn" target="_blank" rel="noopener" class="cardIconLinks">
-            <img class="cardGitHub" src="./assets/github.png" alt="GitHub Icon" />
+            <img class="cardGitHub" src="./assets/github.png" alt="VisiVue main contributor GitHub Icon" />
           </a>
         </div>
       </div>
       <div class="profileCards" v-motion-pop-visible-once>
-        <img id="Ulf" class="cardPhoto" src="./assets/ulfprofile.jpeg" alt="Profile Pic">
+        <img id="Ulf" class="cardPhoto" src="./assets/ulfprofile.jpeg" alt="Profile Pic of Ulf Wong, main contributor of VisiVue">
         <p class="cardName">Ulf Wong</p>
         <p class="cardTitle">Software Engineer</p>
         <div class="cardIcons">
           <a href="https://www.linkedin.com/in/ulf-wong/" target="_blank" rel="noopener" class="cardIconLinks">
-            <img class="cardLinkedIn" src="./assets/linkedin.png" alt="LinkedIn Icon" />
+            <img class="cardLinkedIn" src="./assets/linkedin.png" alt="VisiVue main contributor LinkedIn Icon" />
           </a>
           <a href="https://github.com/hkulf41" target="_blank" rel="noopener" class="cardIconLinks">
-            <img class="cardGitHub" src="./assets/github.png" alt="GitHub Icon" />
+            <img class="cardGitHub" src="./assets/github.png" alt="VisiVue main contributor GitHub Icon" />
           </a>
         </div>
       </div>
       <div class="profileCards" v-motion-pop-visible-once>
-        <img id="Yosuke" class="cardPhoto" src="./assets/yosukeprofilenew.jpeg" alt="Profile Pic">
+        <img id="Yosuke" class="cardPhoto" src="./assets/yosukeprofilenew.jpeg" alt="Profile Pic of Yosuke Tomita, main contributor of VisiVue">
         <p class="cardName">Yosuke Tomita</p>
         <p class="cardTitle">Software Engineer</p>
         <div class="cardIcons">
           <a href="https://www.linkedin.com/in/yosuke-tomita-58617a82/" target="_blank" rel="noopener" class="cardIconLinks">
-            <img class="cardLinkedIn" src="./assets/linkedin.png" alt="LinkedIn Icon" />
+            <img class="cardLinkedIn" src="./assets/linkedin.png" alt="VisiVue main contributor LinkedIn Icon" />
           </a>
           <a href="https://github.com/yosuketomita" target="_blank" rel="noopener" class="cardIconLinks">
-            <img class="cardGitHub" src="./assets/github.png" alt="GitHub Icon" />
+            <img class="cardGitHub" src="./assets/github.png" alt="VisiVue main contributor GitHub Icon" />
           </a>
         </div>
       </div>
